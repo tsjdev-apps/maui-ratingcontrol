@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:MauiRatingControl.Controls"
+             x:Class="MauiRatingControl.MainPage">
+
+    <VerticalStackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+        <controls:SimpleRatingControl Amount="5"
+                                      CurrentValue="1"
+                                      AccentColor="Black"
+                                      StarSize="36" />
+
+        <controls:SimpleRatingControl Amount="5"
+                                      CurrentValue="5"
+                                      AccentColor="Blue"
+                                      StarSize="36" />
+
+        <controls:SimpleRatingControl Amount="10"
+                                      CurrentValue="7.5"
+                                      AccentColor="Red"
+                                      StarSize="36" />
+    </VerticalStackLayout>
+
+</ContentPage>
