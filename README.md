@@ -19,7 +19,7 @@ This repository contains a Simple Rating Control using a font in .NET MAUI. It i
 ## Usage
 
 
-```xaml
+```xml
 <controls:SimpleRatingControl Amount="5"
                               CurrentValue="1"
                               AccentColor="Black"
@@ -41,4 +41,6 @@ This repository contains a Simple Rating Control using a font in .NET MAUI. It i
 
 ## Links
 
-[Medium Post (English)](https://medium.com/@tsjdevapps/net-maui-create-a-simple-rating-control-560566fa5014)
+- [Medium Post (English)](https://medium.com/@tsjdevapps/net-maui-create-a-simple-rating-control-560566fa5014)
+
+- [YouTube Video (German)](https://www.youtube.com/watch?v=0G4X_VgJD-k)
